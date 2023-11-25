@@ -14,8 +14,7 @@ export default defineConfig({
                 'resources/scss/themes/dark/app-dark.scss',
                 'resources/js/app.js',
                 'resources/js/script.js',
-                'resources/scss/bootstrap.scss',
-                'resources/scss/styles.scss'
+                'resources/scss/bootstrap.scss'
             ],
             refresh: true,
         }),
