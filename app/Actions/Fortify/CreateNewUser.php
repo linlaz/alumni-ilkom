@@ -30,7 +30,7 @@ class CreateNewUser implements CreatesNewUsers
         ])->validate();
         try {
             $user = User::create([
-                'name' => $input['name'],
+                'nama' => $input['name'],
                 'email' => $input['email'],
                 'nim' => $input['nim'],
                 'tahun_masuk' => $input['tahun_masuk'],
@@ -41,6 +41,7 @@ class CreateNewUser implements CreatesNewUsers
             return $user;
         } catch (\Throwable $th) {
             Log::error($th);
+            return new User();
         }
     }
 }
