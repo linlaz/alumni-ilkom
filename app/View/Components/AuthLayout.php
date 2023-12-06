@@ -14,8 +14,8 @@ class AuthLayout extends Component
     protected $title;
     protected $description;
      public function __construct($title = null, $description = null) {
-        $this->title = is_null($title) ? "Laravel Mazer Stater Kit" : "$title | Laravel Mazer Stater Kit";
-        $this->description = is_null($description)? "Laravel Mazer Stater Kit" : $description;
+        $this->title = is_null($title) ? "Alumni Ilmu Komputer" : "$title | Alumni Ilmu Komputer";
+        $this->description = is_null($description)? "Alumni Ilmu Komputer" : $description;
      }
 
     /**
